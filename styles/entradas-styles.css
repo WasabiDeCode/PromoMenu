@@ -1,0 +1,138 @@
+
+/* Custom styles for the document */
+.raf{
+  font-family: 'Poiret One';
+  font-size: 40px;
+}
+.nav-link{
+  font-family: 'Poiret One';
+  font-size: 30px;
+}
+
+/* Navbar styles */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Button container styles */
+.container {
+  margin-top: 30px;
+}
+
+/* Button styles */
+.btn {
+  /* Add any common button styles here if needed */
+}
+
+.btn img {
+  width: 450px;
+  height: 320px;
+  border-radius: 15px; 
+  display: flex;
+  object-fit: cover;
+}
+
+/* Center the buttons on small screens */
+@media (max-width: 768px) {
+  .row.justify-content-center {
+    justify-content: center;
+
+  }
+}
+
+.row.justify-content-center{
+  padding-top: 50px;
+}
+/* Add any additional custom styles for your website below */
+
+/* Custom styles for the minimalistic restaurant menu */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Adding rounded corners to the container */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+.btn-text{
+    font-family: Poiret One;
+    text-align: center;
+    font-size: 50px;
+}
+
+.title{
+    font-family: Josefin Sans;
+    font-size: 35px;
+}
+
+.subtitle {
+    font-family: Albert Sans;
+    font-size: 20px;
+}
+
+.price{
+    font-family: Poiret One;
+    font-size: 18px;
+    font-weight: bold;
+    color: #A73121;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+
+
+/* Style the images */
+img {
+    width: 200px; /* Set your desired standard size */
+    height: 150px;
+    border-radius: 10px; /* Adding rounded corners to the images */
+    object-fit: cover;
+}
+
+ footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Style for the footer text items */
+        .footer-item {
+            margin: 0 10px;
+        }

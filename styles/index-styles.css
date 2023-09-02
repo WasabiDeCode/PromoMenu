@@ -1,0 +1,49 @@
+/* Custom styles for the document */
+.raf{
+  font-family: 'Poiret One';
+  font-size: 40px;
+}
+.nav-link{
+  font-family: 'Poiret One';
+  font-size: 30px;
+}
+
+/* Navbar styles */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Button container styles */
+.container {
+  margin-top: 30px;
+}
+
+/* Button styles */
+.btn {
+  /* Add any common button styles here if needed */
+}
+
+.btn img {
+  width: 450px;
+  height: 320px;
+  border-radius: 15px; 
+  display: flex;
+  object-fit: cover;
+}
+
+/* Center the buttons on small screens */
+@media (max-width: 768px) {
+  .row.justify-content-center {
+    justify-content: center;
+
+  }
+}
+
+.row.justify-content-center{
+  padding-top: 50px;
+}
+.btn-text{
+  font-family: Josefin Sans;
+  font-size: 30px;
+}
+/* Add any additional custom styles for your website below */
